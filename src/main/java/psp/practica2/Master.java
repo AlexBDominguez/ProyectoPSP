@@ -47,7 +47,7 @@ public class Master {
                 while (((linea = reader.readLine()) != null) && (contadorDePase < lineasParrafo)) {
                     cadena.append(linea);
                     if(!(contadorDePase==lineasParrafo-1)){
-                        cadena.append(",");
+                        cadena.append("ñ");
                     }
                     contadorDePase++;
                 }
