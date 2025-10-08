@@ -10,8 +10,9 @@ public class Master {
         Scanner sc = new Scanner(System.in);
 
         //Solicitamos información al usuario
-        System.out.println("Introduce la ruta del archivo de texto: ");
-        String filePath = sc.nextLine();
+        //System.out.println("Introduce la ruta del archivo de texto: ");
+        //String filePath = sc.nextLine();
+        String filePath = "src/main/java/resources/FrankensteinPSP.txt";
 
         System.out.println("Introduce cuántos procesos se va a dividir el trabajo: ");
         int numProcesos = sc.nextInt();
